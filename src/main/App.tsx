@@ -1,16 +1,19 @@
 
-import './App.css'
+import '../styles/global.css'
 import Header from "./Header.tsx";
 
 function App() {
 
   return (
     <>
-      <div>
+      <div className="">
           <Header subtitle="TimeTrove" />
       </div>
     </>
   )
 }
+
+
+
 
 export default App
